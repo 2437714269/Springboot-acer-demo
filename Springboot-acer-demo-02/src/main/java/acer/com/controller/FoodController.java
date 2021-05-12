@@ -18,6 +18,7 @@ public class FoodController {
         Food f = new Food();
         f.setRice(food.getRice());
         f.setMeat(food.getMeat());
+        f.setSauce(food.getSauce());
         return f;
     }
 
